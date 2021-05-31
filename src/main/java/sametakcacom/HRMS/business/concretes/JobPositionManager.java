@@ -31,13 +31,17 @@ public class JobPositionManager implements JobPositionService {
 		(this.jobPositionDao.findAll(),"Data listelendi");		
 	}
 	
+	
 	@Override
-	public Result add(JobPosition jobPosition) {
+	public sametakcacom.HRMS.core.utilities.results.Result add(JobPosition jobPosition) {
 		
 		this.jobPositionDao.save(jobPosition);
 		return new SuccessResult("iş alanı eklendi, Başarılı :)");
+		
+	}
+	
 	}
 
 
 
-}
+

@@ -34,8 +34,8 @@ public class JobPositionControllers {
 	}
 	
 	@PostMapping("/add")
-	public Result add(@RequestBody JobPosition jobPosition) {
-		return this.jobPositionService.add(jobPosition);
+	public sametakcacom.HRMS.core.utilities.results.Result add(@RequestBody JobPosition jobPosition) {
+		return  this.jobPositionService.add(jobPosition);
 	}
 	
 }

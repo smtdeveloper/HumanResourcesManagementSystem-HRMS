@@ -10,6 +10,6 @@ import sametakcacom.HRMS.entities.concretes.JobPosition;
 public interface JobPositionService {
 
 	DataResult<List<JobPosition>>  getAll();
-	Result add(JobPosition jobPosition);
+	sametakcacom.HRMS.core.utilities.results.Result add(JobPosition jobPosition);
 	
 }

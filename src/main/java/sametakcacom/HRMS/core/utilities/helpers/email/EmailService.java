@@ -4,6 +4,6 @@ import com.sun.net.httpserver.Authenticator.Result;
 
 public interface EmailService {
 
-	Result send(String to, String title, String message);
+	sametakcacom.HRMS.core.utilities.results.Result send(String to, String title, String message);
 	
 }
